@@ -3,7 +3,8 @@ name: Learning GitHub Script
 on:
   issues:
     types: [opened]
-
+permissions:
+  contents: write
 jobs:
   comment:
     runs-on: ubuntu-latest
